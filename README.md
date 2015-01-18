@@ -22,7 +22,7 @@ end
 
 ###### 1.3 Functionality Test
 
-Use Perl(see [here](https://github.com/CWang24/Design-of-a-General-Purpose-Microprocessor/blob/master/divider_function_test_vec_gen.pl)) to create a vector file like this(N=8, D=3):
+Use Perl(see [here](https://github.com/CWang24/16-bit-Unsigned-Divider/blob/master/divider_function_test_vec_gen.pl)) to create a vector file like this(N=8, D=3):
 ```
 radix 4 4 1 1 1 1 
 io  i  i  i  i  i  i 
