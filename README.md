@@ -1,5 +1,5 @@
-# 16-bit-Unsigned-Divider
-Key word: Full custom, Physical Design <br/>
+# 16-bit Unsigned Divider
+Key word: Full custom, Physical Design, Divider,  <br/>
 
 Designed for 16-bit unsigned data.  All the values here are unsigned integers. This divider is one part of the [General Purpose Microprocessor](https://github.com/CWang24/Design-of-a-General-Purpose-Microprocessor)<br />
 
@@ -55,6 +55,7 @@ tunit ns
 ```
 After simulation, we get the waveforms like this:
 ![image] (https://dl.dropboxusercontent.com/s/oeqk7gkmfqukmaf/image9.png?dl=0)
-It's displaying Quotient[QO<15>:Q<0>]= and Remainder[R<15>:R<0>]=<br />
+It's displaying Quotient[Q<15>:Q<0>]= and Remainder[R<15>:R<0>]=<br />
+
 (Since I do not have the license of this Cadence Virtuoso any more, I could only view the circuits I designed at that time, while not allowed to run any simulation. The waveform figure above is one output of this circuit, but obviously the result is not corresponding to the input setting I wrote above.<br />
 But trust me the design is abosolutely correct, otherwise we would not be able to carry on with the following processor design, while in the end actually our design was among the top 10 designs of that semester)
