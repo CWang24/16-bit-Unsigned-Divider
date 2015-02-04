@@ -1,5 +1,7 @@
 # 16-bit-Unsigned-Divider
-Designed for 16-bit unsigned data.  All the values here are unsigned integers.<br />
+Key word: Full custom, Physical Design <br/>
+
+Designed for 16-bit unsigned data.  All the values here are unsigned integers. This divider is one part of the [General Purpose Microprocessor](https://github.com/CWang24/Design-of-a-General-Purpose-Microprocessor)<br />
 
 ###### 1.1 Mechanism 
 Explained in pseudo code(Q: quotient, R: remainder, N: dividend, D: divisor) N/D=Q...R
@@ -22,7 +24,7 @@ end
 
 ###### 1.3 Functionality Test
 
-Use Perl(see [here](https://github.com/CWang24/16-bit-Unsigned-Divider/blob/master/divider_function_test_vec_gen.pl)) to create a vector file like this(N=8, D=3):
+Wrote Perl script [divider_function_test_vec_gen.pl](https://github.com/CWang24/16-bit-Unsigned-Divider/blob/master/divider_function_test_vec_gen.pl)) and  created a vector file like this(N=8, D=3):
 ```
 radix 4 4 1 1 1 1 
 io  i  i  i  i  i  i 
